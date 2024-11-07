@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 class ToDoModel {
-List<Map<String , dynamic>>todo;
+List<dynamic>todo;
 int totalTasks;
 ToDoModel({required this.todo , required this.totalTasks});
 
